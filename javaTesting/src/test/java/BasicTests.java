@@ -1,6 +1,8 @@
 import org.example.Basics;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 public class BasicTests {
     //Tests going to go in here
@@ -17,4 +19,8 @@ public class BasicTests {
         int value = basicTests.compare(2,3);
         Assertions.assertEquals(-1,value);
     }
+
+
+
+
 }
